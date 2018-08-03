@@ -11,7 +11,7 @@ Describe here de last updates or releases of the project.
 
 ## Release notes 
 
-In this session contains the release notes of the project.
+In this section contains the release notes of the project.
 > Version 2.0
 
 In this version ...
@@ -108,7 +108,7 @@ configuration for the jobs.
 The samples of this application are in `samples` folder, there you will find request examples and others stuffs.
 
 ## Examples
-This session contains pieces of code with examples of some features.
+This section contains pieces of code with examples of some features.
 
 ### Handler
 
