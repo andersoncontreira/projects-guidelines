@@ -1,28 +1,28 @@
-# Healthcheck - Documentação
+# Healthcheck - Documentation
 
-Quando o projeto for uma API, é requerido que o mesmo implemente um endpoint de `healthcheck`, é recomendado que
-o projeto aplique o padrão definido da documentação da guideline, para que o mesmo seja um endpoint inteligente.
+When the project is an API, it is required to implement a `healthcheck` endpoint, it is recommended that
+the project applies the defined standard of the guideline documentation, so that it is an intelligent endpoint.
 
-## Objetivo
+## Objective
 
-Sua API precisa ter um endpoint para que as ferramentas de validação de serviço possam garantir que um serviço esteja
-disponível.
+Your API needs to have an endpoint so that service validation tools can ensure that a service is
+available.
 
-## Diagrama
+## Diagram
 
-![Healthcheck](../images/healthcheck-projeto.png)
+![Healthcheck](./guidelines/images/healthcheck-projeto.png)
 
-## Exemplos
+## Examples
 
-Considerando que temos um serviço que tem as seguintes caracteristicas:
+Considering that we have a service that has the following characteristics:
 
-* Leitura de arquivos de um bucket da AWS;
-* Conexão com um banco de dados;
-* Consumo de duas API externas.
+* Reading files from an AWS bucket;
+* Connection to a database;
+* Consumption of two external APIs.
 
-Abaixo temos alguns exemplos de código de como deveria ser um retorno deste tipo de endpoint:
+Below are some code examples of what a return from this type of endpoint should look like:
 
-### Serviço funcionando plenamente
+### Service working fine
 
 ```
 HTTP Status 200 OK
@@ -70,7 +70,7 @@ HTTP Status 200 OK
 }
 ```
 
-### Serviço funcionando parcialmente (Um serviço externo não está funcionando)
+### Service partially working (An external service is not working)
 
 ```
 HTTP Status 424 Failed dependecy
@@ -118,7 +118,7 @@ HTTP Status 424 Failed dependecy
 }
 ```
 
-### Serviço funcionando parcialmente (Problema com o banco de dados da aplicação ou rotas critícas não disponíveis)
+### Service partially working (Application database problem or critical routes not available)
 
 ```
 HTTP Status 500 Internal Server Error
@@ -166,7 +166,7 @@ HTTP Status 500 Internal Server Error
 }
 ```
 
-## Referências
+## References
 * [Microsoft - Monitoramento de integridade](https://docs.microsoft.com/pt-br/dotnet/architecture/microservices/implement-resilient-applications/monitor-app-health)
 * [Microsoft - Exemplo com ASP.NET Core](https://docs.microsoft.com/pt-br/aspnet/core/host-and-deploy/health-checks?view=aspnetcore-6.0)
 * [Testfully - Artigo Health Check](https://testfully.io/blog/api-health-check-monitoring/)

@@ -38,7 +38,7 @@ Exemplo:
 GET /products
 ```
 
-Instancias são itens dessas coleções
+Instancias são itens dessas coleções.
 
 Exemplo:
 
@@ -313,9 +313,6 @@ Exemplos:
 > 2021-09-16T16:05:00.426914-03:00
 
 ### Referências
-
-Para mais detalhes ver:
-
 * [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601#:~:text=As%20of%20ISO%208601%2D1,hour%20between%2000%20and%2023.)
 * [ISO 8601 — Date and time format](https://www.iso.org/iso-8601-date-and-time-format.html)
 * [PHP: DateTime - Manual](https://www.php.net/manual/pt_BR/class.datetime.php)
@@ -578,9 +575,6 @@ UUID: 0871b2de-7a97-41bc-8d24-aafae8f5b8be
 ## WIP
 
 ## Referências
-
-Para mais detalhes ver:
-
 * [RESTful Best Practices-v1_2.pdf](https://github.com/tfredrich/RestApiTutorial.com/raw/master/media/RESTful%20Best%20Practices-v1_2.pdf)
 * [Designing-a-Beautiful-REST%2BJSON-API.pdf](https://docs.huihoo.com/apache/apachecon/us2014/Designing-a-Beautiful-REST%2BJSON-API.pdf)
 * [HTTP Methods for RESTful Services](https://www.restapitutorial.com/lessons/httpmethods.html#:~:text=The%20primary%20or%20most%2Dcommonly,but%20are%20utilized%20less%20frequently.)

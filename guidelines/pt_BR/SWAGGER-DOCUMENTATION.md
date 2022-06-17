@@ -43,7 +43,7 @@ Exemplo de rota:
 http://localhost/docs
 ```
 
-## Documento de configuração
+## OpenAPI Documento de configuração
 o arquivo com a especificação deverá estar localizado ou na pasta docs também com o seguinte nome: openapi.yml.  O mesmo poderá ser mapeado nas rotas /docs/openapi.yml ou /openapi.yml
 ```
 http://localhost/openapi.yml

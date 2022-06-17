@@ -14,21 +14,21 @@ Você deve adicionar um arquivo README ao seu repositório para informar outras 
 
 A documentação do projeto esta presente no arquivo `README.md`, é importante que este documento contenha informações como:
 
-| Item                                | Opcional | Observação                                                                                                                               | Exemplo                                                                              |
-|-------------------------------------|----------|------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
-| Description                         | Não      | Breve descrição do projeto e seu propósito                                                                                               | Service to receive events to calculate the supplier share of multisourcing products. |
-| Service Architecture                | Não      | Apresentação da arquitetura que o projeto faz parte                                                                                      | This service is the main part of the follow architecture.                            |
-| General Service Routes Architecture | Sim      | Documentação visual de rotas                                                                                                             | Pode ser utilizado um link para a documentação do Swagger do projeto ou ambos.       |
-| Prerequisites                       | Não      | Pré-requisitos                                                                                                                           | * Python 3.8 * docker * docker-compose                                               |
-| Features                            | Não      | Funcionalidades que o projeto contém                                                                                                     |                                                                                      |
-| Installation                        | Não      | Descrever o processo  de instalação                                                                                                      |                                                                                      |
-| Running                             | Não      | Descrever o processo de execução                                                                                                         |                                                                                      |
-| Samples                             | Sim      | Reunir documentos que auxiliem o desenvolvedor durante o desenvolvimento,                                                                | Pode ser arquivos em JSON com exemplos de payloads.                                  |
-| Examples                            | Sim      | Comum em projetos de templates que pode ter exemplos de uso do projeto para GRPC, Lambda, ECS ou outros cenários pertinentes ao projeto. |                                                                                      |
-| Running tests                       | Não      | Descrever o processo para a execução de testes de unidade, componente e integração.                                                      | Dependendo do projeto pode ser opcional                                              |
-| Generationg coverage reports        | Não      | Descrever o processo da geração de relatórios para os contextos descritos acima.                                                         | Dependendo do projeto pode ser opcional                                              |
-| License                             | Não      | Descrição da licença utilizada                                                                                                           |                                                                                      |
-| Contributions                       | Não      | Descrição dos contribuidores do projeto                                                                                                  |                                                                                      |
+| Item                                | Optional | Note                                                                                                                                   | Example                                                                              |
+|-------------------------------------|----------|----------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
+| Description                         | No       | Brief description of the project and its purpose                                                                                       | Service to receive events to calculate the supplier share of multisourcing products. |
+| Service Architecture                | No       | Presentation of the architecture that the project is part of                                                                           | This service is the main part of the follow architecture.                            |
+| General Service Routes Architecture | Yes      | Route Documentation                                                                                                                    | A link to the project's Swagger documentation or both can be used.                   |
+| Prerequisites                       | No       | Prerequisites                                                                                                                          | * Python 3.8 * docker * docker-compose                                               |
+| Features                            | No       | Features that the project contains                                                                                                     |                                                                                      |
+| Installation                        | No       | Describe the installation process                                                                                                      |                                                                                      |
+| Running                             | No       | Describe the execution process                                                                                                         |                                                                                      |
+| Samples                             | Yes      | Gather documents that help the developer during development,                                                                           | It can be JSON files with payload examples.                                          |
+| Examples                            | Yes      | Common in template projects that may have examples of project usage for GRPC, Lambda, ECS or other scenarios pertinent to the project. |                                                                                      |
+| Running tests                       | No       | Describe the process for running unit, component, and integration tests.                                                               | Depending on the project it may be optional                                          |
+| Generationg coverage reports        | No       | Describe the reporting process for the contexts described above.                                                                       | Depending on the project it may be optional                                          |
+| License                             | No       | Description of the license used                                                                                                        |                                                                                      |
+| Contributions                       | No       | Description of Project Contributors                                                                                                    |                                                                                      |
 
 ### Wikis
 Um README deve conter apenas as informações necessárias para desenvolvedores começarem a usar e a contribuir para o seu projeto. A documentação mais longa é mais adequada para wikis. Para obter mais informações, consulte "Sobre wikis."
@@ -43,7 +43,7 @@ Alguns projetos incluem as informações sobre a licença no README. Por exemplo
 
 Como uma prática recomendada, incentivamos que você inclua o arquivo da licença no seu projeto.
 
-### Exemplos
+## Exemplos
 Para visualizar exemplos destes arquivos veja:
 * [README.md](../../resources/README.md)
 * [CHANGELOG.md](../../resources/CHANGELOG.md)
@@ -52,3 +52,5 @@ Para visualizar exemplos destes arquivos veja:
 * [LICENSE.md](../../resources/LICENSE.md)
 
 ## Referências
+* [Docs Github - README](https://docs.github.com/pt/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)
+* [Docs Github - LICENSE](https://docs.github.com/pt/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository)
