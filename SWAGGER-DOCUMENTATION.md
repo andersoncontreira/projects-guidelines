@@ -17,19 +17,19 @@ to be documented
 
 ### Examples
 To view examples of these files go to:
-* [openapi.yml](../../resources/public/swagger/openapi.yml)
+* [openapi.yml](./resources/public/swagger/openapi.yml)
 * UI
-    * [UI](../../resources/public/swagger/index.html)
+    * [UI](./resources/public/swagger/index.html)
 * Routes
-    * [PHP - Routes](../../examples/php/openapi/routes/routes.php)
-    * [Python - Routes](../../examples/python/app.py)
+    * [PHP - Routes](./examples/php/openapi/routes/routes.php)
+    * [Python - Routes](./examples/python/app.py)
 * Schemas
     * PHP
-        * [Schemas - API](../../examples/php/openapi/schemas/Api.yaml)
-        * [Schemas - Product](../../examples/php/openapi/schemas/Entity/Product.yaml)
+        * [Schemas - API](./examples/php/openapi/schemas/Api.yaml)
+        * [Schemas - Product](./examples/php/openapi/schemas/Entity/Product.yaml)
     * Python
-        * [Schemas - API](../../examples/python/openapi/api_schemas.py)
-        * [Schemas - General](../../examples/python/openapi/schemas.py)
+        * [Schemas - API](./examples/python/openapi/api_schemas.py)
+        * [Schemas - General](./examples/python/openapi/schemas.py)
 
 
 ### Reference to route documentation
