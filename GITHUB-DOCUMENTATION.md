@@ -45,11 +45,11 @@ As a best practice, we encourage you to include the license file in your project
 
 ## Examples
 To view examples of these files click in the links bellow:
-* [README.md](../../resources/README.md)
-* [CHANGELOG.md](../../resources/CHANGELOG.md)
-* [CODE_OF_CONDUCT.md](../../resources/CODE_OF_CONDUCT.md)
-* [CONTRIBUTING.md](../../resources/CONTRIBUTING.md)
-* [LICENSE.md](../../resources/LICENSE.md)
+* [README.md](./resources/README.md)
+* [CHANGELOG.md](./resources/CHANGELOG.md)
+* [CODE_OF_CONDUCT.md](./resources/CODE_OF_CONDUCT.md)
+* [CONTRIBUTING.md](./resources/CONTRIBUTING.md)
+* [LICENSE.md](./resources/LICENSE.md)
 
 ## References
 * [Docs Github - README](https://docs.github.com/pt/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)
