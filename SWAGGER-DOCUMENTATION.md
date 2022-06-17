@@ -6,7 +6,7 @@ Depending on the language you will have variant ways of documenting your project
 
 ### Diagram
 
-![Swagger](./guidelines/images/swagger-project.png)
+![Swagger](./guidelines/images/swagger-projeto.png)
 
 ### Schemas
 to be documented
