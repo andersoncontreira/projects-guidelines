@@ -7,66 +7,27 @@ Definir uma padronização para nossos projetos para facilitar a identificação
 ## Componentes básicos de um projeto
 Nesta seção apresentamos uma visão geral dos componentes esperados em uma arquitetura que segue o pradrão de guidelines definido pelo time de arquietura da YourCompany.
 
-[//]: # (### Diagrama)
+### Diagrama
 
-[//]: # (![Componentes de um projeto]&#40;images/componentes-projeto.png&#41;)
-
-#### Lista com os itens do diagrama com descrição
-* Github - Templates
-  * Templates de Pull Request
-  * Templates de Issues
-    * Bug Report
-    * Documentation Request
-    * Feature Request
-* Github - Workflows
-  * Guidelines
-  * Lint
-  * Sonar
-  * Unit tests
-* Github - Documentation
-  * README.md
-  * CHANGELOG.md
-  * CODE_OF_CONDUCT.md
-  * CONTRIBUTING.md
-  * LICENSE.md
-* Sonar
-  * sonar-project.properties
-* OpenApi/Swagger
-* RESTful e HATEOS
-* Docker
-* Healthcheck
-* Testes
-* Serverless
-* Editorconfig
-* Terraform
-* Pipeline (CI/CD)
-* Automation Scripts
-* VSCode settings
-* Environment Configurations
-* Binaries folder
-* Git
-  * .gitignore
-  * .gitkeep
-* Logging e Monitoring
-* Metadata files
+![Componentes de um projeto](../images/componentes-projeto.png)
 
 ## Github - Templates
 Incluir templates padronizados para:
 * Pull Request
+  * pull_request_template.md
 * Issues
   * Bug Report
+    * bug_report.md
+    * bug_report.yml
+  * Config
+    * config.yml
   * Documentation Request
+    * documentation_request.md
+    * documentation_request.yml
   * Feature Request
+    * feature_request.md
+    * feature_request.yml
 
-Lista de arquivos de template:
-* pull_request_template.md
-* bug_report.md
-* bug_report.yml
-* config.yml
-* documentation_request.md
-* documentation_request.yml
-* feature_request.md
-* feature_request.yml
 
 ### Exemplos
 Para visualizar exemplos destes arquivos acesse:
@@ -81,13 +42,22 @@ Para visualizar exemplos destes arquivos acesse:
 
 
 ## Github - Workflows
+Processos automatizados configuráveis que executam um ou mais trabalhos. O
+s fluxos de trabalho são definidos por um arquivo YAML verificado no seu repositório e será executado quando acionado por um evento no repositório, ou eles podem ser acionados manualmente ou de acordo com um cronograma definido.
+
 Incluir scripts para as seguintes ações:
 * Lint
+  * Um linter ou lint se refere a ferramentas que analisam código-fonte para acusar erros de programação, bugs, erros estilísticos, e construções suspeitas. 
 * Unit Test
+  * Um teste de unidade exercita a menor parte do software testável no aplicativo para determinar se ele se comporta conforme o esperado. 
 * Component Test
+  * Um teste de componente limita o escopo do software exercitado a uma parte do sistema em teste, manipulando o sistema por meio de interfaces de código interno e usando duplicatas de teste para isolar o código em teste de outros componentes.
 * Sonar
+  * Ferramenta de análise de código para verificar a qualidade do código, código duplicado, vulnerabilidades e bugs.
 * Versioning
+  * Realizar o versionamento do projeto seguindo o padrão SemVer;
 * Guidelines
+  * Validar se o projeto está seguindo as definições de boas práticas;
 
 ### Exemplos
 Para visualizar exemplos destes arquivos acesse:
@@ -98,19 +68,26 @@ Para visualizar exemplos destes arquivos acesse:
 * [versioning.yml](#)
 * [guidelines.yml](../../resources/.github/workflows/guidelines.yml)
 
-## Github - Documentation
+### Referências
+* [Docs Github - Workflows](https://docs.github.com/pt/actions/using-workflows/about-workflows)
+* [Wikipedia - Lint](https://en.wikipedia.org/wiki/Lint_(software))
+* [Wikipedia - Análise estática](https://en.wikipedia.org/wiki/Static_program_analysis) 
+
+## Github - Documentação
 O projeto deve possuir alguns arquivos que ajudem o usuário a entender o projeto, conseguir instalar e executar o mesmo, além de poder obter outras informações do mesmo, utilizando os arquivos respectivos como guia para o processo de evolução do projeto.
 
-### Diagrama
+[//]: # (### Diagrama)
 
-![Componentes de um projeto](../images/componentes-projeto.png)
+[//]: # (![Componentes de um projeto]&#40;../images/github-projeto.png&#41;)
 
 Lista de arquivos de documentação:
 * README.md
+  * Você deve adicionar um arquivo README ao seu repositório para informar outras pessoas por que seu projeto é útil, o que elas podem fazer com o projeto e como elas podem usá-lo.
 * CHANGELOG.md
 * CODE_OF_CONDUCT.md
 * CONTRIBUTING.md
 * LICENSE.md
+  * Para que seu repositório seja realmente de código aberto, você precisará licenciá-lo para que outros tenham a liberdade de usar, alterar e distribuir o software. 
   
 ### Exemplos
 Para visualizar exemplos destes arquivos acesse:
@@ -121,6 +98,10 @@ Para visualizar exemplos destes arquivos acesse:
 * [LICENSE.md](../../resources/LICENSE.md)
 
 > Para mais detalhes acesse: [GITHUB-DOCUMENTATION.md](GITHUB-DOCUMENTATION.md)
+
+### Referências
+* [Docs Github - README](https://docs.github.com/pt/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)
+* [Docs Github - LICENSE](https://docs.github.com/pt/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository)
 
 ## Sonar
 Configurações para a validação de qualidade de código, podendo ser via [SonarQube](https://www.sonarqube.org/) ou [SonarCloud](http://sonarcloud.io/).

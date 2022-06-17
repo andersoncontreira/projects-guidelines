@@ -1,4 +1,16 @@
-## Github - Documentação
+# Github - Documentação
+
+## README
+
+Um README, muitas vezes, é o primeiro item que um visitante verá ao visitar seu repositório. Os arquivos README geralmente incluem informações sobre:
+
+    O que o projeto faz
+    Por que o projeto é útil
+    Como os usuários podem começar a usar o projeto
+    Onde os usuários podem obter ajuda com seu projeto
+    Quem mantém e contribui com o projeto
+
+Você deve adicionar um arquivo README ao seu repositório para informar outras pessoas por que seu projeto é útil, o que elas podem fazer com o projeto e como elas podem usá-lo.
 
 A documentação do projeto esta presente no arquivo `README.md`, é importante que este documento contenha informações como:
 
@@ -18,6 +30,19 @@ A documentação do projeto esta presente no arquivo `README.md`, é importante 
 | License                             | Não      | Descrição da licença utilizada                                                                                                           |                                                                                      |
 | Contributions                       | Não      | Descrição dos contribuidores do projeto                                                                                                  |                                                                                      |
 
+### Wikis
+Um README deve conter apenas as informações necessárias para desenvolvedores começarem a usar e a contribuir para o seu projeto. A documentação mais longa é mais adequada para wikis. Para obter mais informações, consulte "Sobre wikis."
+
+
+## LICENSE
+Os repositórios públicos no GitHub são usados frequentemente para compartilhar softwares de código aberto. Para que seu repositório seja realmente de código aberto, você precisará licenciá-lo para que outros tenham a liberdade de usar, alterar e distribuir o software.
+
+A maioria das pessoas coloca seu texto de licença em um arquivo denominado LICENSE.txt (ou LICENSE.rst ou LICENSE.rst) na raiz do repositório; aqui está um exemplo do Hubot.
+
+Alguns projetos incluem as informações sobre a licença no README. Por exemplo, um README de um projeto pode incluir uma observação declarando "Este projeto está licenciado nos termos da licença MIT."
+
+Como uma prática recomendada, incentivamos que você inclua o arquivo da licença no seu projeto.
+
 ### Exemplos
 Para visualizar exemplos destes arquivos veja:
 * [README.md](../../resources/README.md)
@@ -25,3 +50,5 @@ Para visualizar exemplos destes arquivos veja:
 * [CODE_OF_CONDUCT.md](../../resources/CODE_OF_CONDUCT.md)
 * [CONTRIBUTING.md](../../resources/CONTRIBUTING.md)
 * [LICENSE.md](../../resources/LICENSE.md)
+
+## Referências
