@@ -2,10 +2,10 @@
 Arquivo contendo orientações para a configuração de um projeto com os melhores padrões do mercado.
 
 ## Objetivo
-Definir uma padronização para nossos projetos para facilitar a identificação, entendimento e execução dos mesmos, neste documento teremos algumas orientações que vão ajudar neste processo.
+Definir uma padronização para nossos projetos para facilitar a identificação, entendimento e execução dos mesmos.
 
 ## Componentes básicos de um projeto
-Nesta seção apresentamos uma visão geral dos componentes esperados em uma arquitetura que segue o pradrão de guidelines definido pelo time de arquietura da YourCompany.
+Nesta seção apresentamos uma visão geral dos componentes esperados em uma arquitetura que segue o pradrão de guidelines.
 
 ### Diagrama
 
@@ -42,10 +42,9 @@ Para visualizar exemplos destes arquivos acesse:
 
 
 ## Github - Workflows
-Processos automatizados configuráveis que executam um ou mais trabalhos. O
-s fluxos de trabalho são definidos por um arquivo YAML verificado no seu repositório e será executado quando acionado por um evento no repositório, ou eles podem ser acionados manualmente ou de acordo com um cronograma definido.
+Processos automatizados configuráveis que executam um ou mais trabalhos. Os fluxos de trabalho são definidos por um arquivo YAML verificado no seu repositório e será executado quando acionado por um evento no repositório, ou eles podem ser acionados manualmente ou de acordo com um cronograma definido.
 
-Incluir scripts para as seguintes ações:
+Sugestões de fluxos de trabalho:
 * Lint
   * Um linter ou lint se refere a ferramentas que analisam código-fonte para acusar erros de programação, bugs, erros estilísticos, e construções suspeitas. 
 * Unit Test
@@ -57,7 +56,7 @@ Incluir scripts para as seguintes ações:
 * Versioning
   * Realizar o versionamento do projeto seguindo o padrão SemVer;
 * Guidelines
-  * Validar se o projeto está seguindo as definições de boas práticas;
+  * Valida se o projeto está seguindo as definições de boas práticas;
 
 ### Exemplos
 Para visualizar exemplos destes arquivos acesse:
@@ -80,7 +79,7 @@ O projeto deve possuir alguns arquivos que ajudem o usuário a entender o projet
 
 [//]: # (![Componentes de um projeto]&#40;../images/github-projeto.png&#41;)
 
-Lista de arquivos de documentação:
+Lista de arquivos:
 * README.md
   * Você deve adicionar um arquivo README ao seu repositório para informar outras pessoas por que seu projeto é útil, o que elas podem fazer com o projeto e como elas podem usá-lo.
 * CHANGELOG.md
@@ -97,6 +96,8 @@ Para visualizar exemplos destes arquivos acesse:
 * [CONTRIBUTING.md](../../resources/CONTRIBUTING.md)
 * [LICENSE.md](../../resources/LICENSE.md)
 
+### Mais detalhes
+Abaixo temos um link com informações mais detalhadas desta abordagem.
 > Para mais detalhes acesse: [GITHUB-DOCUMENTATION.md](GITHUB-DOCUMENTATION.md)
 
 ### Referências
@@ -113,18 +114,18 @@ O arquivo `sonar-project.properties`  deve conter as seguintes configurações:
 * sonar.organization
   * Nome da empresa ou código registrado no `SonarCloud`;
 * sonar.source
-  * Normalmente usa-se o ponto (.) para referenciar a pasta raiz.
+  * Normalmente usa-se o ponto (.) para referenciar a pasta raiz;
 * sonar.exclusions
-  * Pastas que não possuem códigos criados pelos desenvolvedores ou pastas com arquivos que não são relevantes para a análise, por exemplo, arquivos de configuração, arquivos de docker, pasta de módulos do node.
+  * Pastas que não possuem códigos criados pelos desenvolvedores ou pastas com arquivos que não são relevantes para a análise, por exemplo, arquivos de configuração, arquivos de docker, pasta de módulos do node;
 * sonar.tests
-  * Pasta que contem todos os testes
+  * Pasta que contem todos os testes;
 * sonar.tests.inclusions
-  * Padrão para identificar os arquivos de testes
+  * Padrão para identificar os arquivos de testes;
 * sonar.{linguagem} .coverage.reportPaths
-  * Localização dos relatórios de cobertura do projeto
+  * Localização dos relatórios de cobertura do projeto;
   * Padrão Clover
 * sonar.junit.reportsPath
-  * Localização dos relatórios de cobertura do projeto
+  * Localização dos relatórios de cobertura do projeto;
   * Padrão JUnit
 
 ### Exemplos
@@ -156,7 +157,7 @@ Para visualizar exemplos destes arquivos acesse:
   * [UI](../../resources/public/swagger/index.html)
 * Routes
   * [PHP - Routes](../../examples/php/openapi/routes/routes.php)
-  * [Python - Routes](../../examples/python/app.py)
+  * [Python - Routes](../../examples/python/app.py#L218)
 * Schemas
   * PHP
     * [Schemas - API](../../examples/php/openapi/schemas/Api.yaml)
@@ -169,6 +170,8 @@ Para visualizar exemplos destes arquivos acesse:
 ### Referência para a documentação de rotas
 O material que pode ser utilizado para gerar as documentações inline você encontra aqui: https://swagger.io/specification/
 
+### Mais detalhes
+Abaixo temos um link com informações mais detalhadas desta abordagem.
 > Para mais detalhes acesse: [SWAGGER-DOCUMENTATION.md](SWAGGER-DOCUMENTATION.md)
 
 ## RESTful e HATEOS
@@ -179,18 +182,21 @@ Melhor ainda se puder aplicar conceitos de HATEOS.
 
 ![RESTful-HATEOS](../images/restful-hateos-projeto.png)
 
+### Mais detalhes
+Abaixo temos um link com informações mais detalhadas desta abordagem.
+> Para mais detalhes acesse: [RESTFUL-HATEOS-DOCUMENTATION.md](RESTFUL-HATEOS-DOCUMENTATION.md)
+
 ### Referências
-Para mais detalhes ver:
 * [Designing-a-Beautiful-REST%2BJSON-API.pdf](https://docs.huihoo.com/apache/apachecon/us2014/Designing-a-Beautiful-REST%2BJSON-API.pdf)
 * [HTTP Methods for RESTful Services](https://www.restapitutorial.com/lessons/httpmethods.html#:~:text=The%20primary%20or%20most%2Dcommonly,but%20are%20utilized%20less%20frequently.)
 * [RESTful Web Services Resources](https://www.restapitutorial.com/resources.html)
 * [REST-API-Design-Filtering-Sorting-and-Pagination](https://www.moesif.com/blog/technical/api-design/REST-API-Design-Filtering-Sorting-and-Pagination/)
 * [HTTP Status Dogs](https://httpstatusdogs.com/)
 
-> Para mais detalhes acesse: [RESTFUL-HATEOS-DOCUMENTATION.md](RESTFUL-HATEOS-DOCUMENTATION.md)
 
 ## Docker
 Configuração de arquivos de docker para o projeto.
+
 Arquivos de docker devem estar na pasta docker, sendo organizados por contexto, exemplos:
 
 * docker/
@@ -213,7 +219,8 @@ de conteúdo da pasta do projeto.
 ### docker-compose.yml
 Arquivo com configurações para gestão de containers no ambiente de desenvolvimento.
 
-
+### Mais detalhes
+Abaixo temos um link com informações mais detalhadas desta abordagem.
 > Para mais detalhes acesse: [DOCKER-DOCUMENTATION.md](DOCKER-DOCUMENTATION.md)
 
 ## Healthcheck
@@ -223,17 +230,18 @@ o projeto aplique o padrão definido da documentação da guideline, para que o 
 ### Diagrama
 ![Healthcheck](../images/healthcheck-projeto.png)
 
+### Mais detalhes
+Abaixo temos um link com informações mais detalhadas desta abordagem.
+> Para mais detalhes acesse: [HEALTHCHECK-DOCUMENTATION.md](HEALTHCHECK-DOCUMENTATION.md)
+
 ### Referências
 Para mais detalhes ver:
 * [Microsoft - Monitoramento de integridade](https://docs.microsoft.com/pt-br/dotnet/architecture/microservices/implement-resilient-applications/monitor-app-health)
 * [Microsoft - Exemplo com ASP.NET Core](https://docs.microsoft.com/pt-br/aspnet/core/host-and-deploy/health-checks?view=aspnetcore-6.0)
 * [Testfully - Artigo Health Check](https://testfully.io/blog/api-health-check-monitoring/)
 
-> Para mais detalhes acesse: [HEALTHCHECK-DOCUMENTATION.md](HEALTHCHECK-DOCUMENTATION.md)
-
-
 ## Testes
-Descrição da estrutura da pasta e conceitos
+Descrição da estrutura da pasta e conceitos.
 
 ### Diagrama
 ![Testes](../images/test-structure-projeto.png)
@@ -257,12 +265,13 @@ Descrição da estrutura da pasta e conceitos
 * Testes para serem executados localmente em conjunto do docker que irá prover o acesso local a recursos como banco de dados e afins;
 * A duração destes vai depender dos cenários desenvolvidos, mas a ideia destes testes é explorar diversos cenários possíveis;
 
-### Referências
-* [Martin Fowler - Microservice Testing](https://martinfowler.com/articles/microservice-testing/)
 
-
+### Mais detalhes
+Abaixo temos um link com informações mais detalhadas desta abordagem.
 > Para mais detalhes acesse: [TEST-DOCUMENTATION.md](TEST-DOCUMENTATION.md)
 
+### Referências
+* [Martin Fowler - Microservice Testing](https://martinfowler.com/articles/microservice-testing/)
 
 ## Serverless
 a documentar
