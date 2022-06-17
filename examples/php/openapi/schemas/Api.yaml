@@ -1,0 +1,23 @@
+components:
+  schemas:
+    RootSchema:
+      type: object
+      properties:
+        app:
+          description: App name and Version
+          type: string
+          example: project-name:1.0.0
+    AliveSchema:
+      type: object
+      properties:
+        app:
+          description: App name
+          type: string
+          example: I'm alive!
+    PingSchema:
+      type: object
+      properties:
+        message:
+          description: Ping response
+          type: string
+          example: "PONG"

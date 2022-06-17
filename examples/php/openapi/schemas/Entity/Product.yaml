@@ -1,0 +1,26 @@
+components:
+  schemas:
+    ProductSchema:
+      type: object
+      properties:
+        id:
+          description: Product id
+          type: integer
+          format: int32
+          example: 1
+        sku:
+          description: Product sku
+          type: int
+          format: int32
+          example: 2
+        name:
+          description: Product name
+          type: string
+          example: Common Pencil
+        description:
+          description: Product description
+          type: string
+          example: Common Pencil description
+
+
+

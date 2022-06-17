@@ -1,4 +1,4 @@
-## Github - Documentation
+## Github - Documentação
 
 A documentação do projeto esta presente no arquivo `README.md`, é importante que este documento contenha informações como:
 
@@ -16,4 +16,12 @@ A documentação do projeto esta presente no arquivo `README.md`, é importante 
 | Running tests                       | Não      | Descrever o processo para a execução de testes de unidade, componente e integração.                                                      | Dependendo do projeto pode ser opcional                                              |
 | Generationg coverage reports        | Não      | Descrever o processo da geração de relatórios para os contextos descritos acima.                                                         | Dependendo do projeto pode ser opcional                                              |
 | License                             | Não      | Descrição da licença utilizada                                                                                                           |                                                                                      |
-| Contributions                       | Não      | Descrição dos contribuidores do projeto                                                                                                  |                                                                                      | 
+| Contributions                       | Não      | Descrição dos contribuidores do projeto                                                                                                  |                                                                                      |
+
+### Exemplos
+Para visualizar exemplos destes arquivos veja:
+* [README.md](../../resources/README.md)
+* [CHANGELOG.md](../../resources/CHANGELOG.md)
+* [CODE_OF_CONDUCT.md](../../resources/CODE_OF_CONDUCT.md)
+* [CONTRIBUTING.md](../../resources/CONTRIBUTING.md)
+* [LICENSE.md](../../resources/LICENSE.md)
