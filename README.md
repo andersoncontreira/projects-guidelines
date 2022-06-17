@@ -13,7 +13,7 @@ In this section we present an overview of the components expected in an architec
 
 ### Diagram
 
-![Componentes de um projeto](../images/componentes-projeto.png)
+![Componentes de um projeto](./guidelines/images/componentes-projeto.png)
 
 ## Github - Templates
 Include standardized templates for:
@@ -81,7 +81,7 @@ The project must have some files that help the user to understand the project, b
 
 [//]: # (### Diagram)
 
-[//]: # (![Componentes de um projeto]&#40;../images/github-projeto.png&#41;)
+[//]: # (![Componentes de um projeto]&#40;./guidelines/images/github-projeto.png&#41;)
 
 List of the files:
 * README.md
@@ -145,7 +145,7 @@ Files for dynamic API configuration.
 
 ### Diagram
 
-![Swagger](../images/swagger-projeto.png)
+![Swagger](./guidelines/images/swagger-projeto.png)
 
 ### Schemas
 A documentar
@@ -184,7 +184,7 @@ Even better if you can apply HATEOS concepts.
 
 ### Diagram
 
-![RESTful-HATEOS](../images/restful-hateos-projeto.png)
+![RESTful-HATEOS](./guidelines/images/restful-hateos-projeto.png)
 
 ### More details
 Below we have a link with more detailed information on this approach.
@@ -232,7 +232,7 @@ Quando o projeto for uma API, é requerido que o mesmo implemente um endpoint de
 o projeto aplique o padrão definido da documentação da guideline, para que o mesmo seja um endpoint inteligente.
 
 ### Diagram
-![Healthcheck](../images/healthcheck-projeto.png)
+![Healthcheck](./guidelines/images/healthcheck-projeto.png)
 
 ### More details
 Below we have a link with more detailed information on this approach.
@@ -247,7 +247,7 @@ Below we have a link with more detailed information on this approach.
 Description of the folder structure and concepts.
 
 ### Diagram
-![Tests](../images/test-structure-projeto.png)
+![Tests](./guidelines/images/test-structure-projeto.png)
 
 ### Unit Tests
 * Tests that use mocks to avoid real connections to external components;
