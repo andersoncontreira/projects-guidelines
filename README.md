@@ -1,5 +1,5 @@
 # Projects Guidelines
-Guidelines for configuring a project with the best project standards.
+Guidelines for configuring a project with the best standards of the internet.
 
 ## List of guidelines in different languages:
 * [Guidelines in pt_BR](guidelines/pt_BR/README.md)
