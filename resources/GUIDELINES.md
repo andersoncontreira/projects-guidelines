@@ -1,31 +1,31 @@
-# Guidelines para projetos
-Neste documento você encontra orientações para o seu projeto ficar de acordo com as `guidelines` 
-definidas pelo time de arquitetura, com o objetivo de deixar o seu projeto bem completo.
+# Guidelines for projects
+In this document you will find guidelines for your project to comply with the `guidelines`
+defined by the architecture team, with the objective of making your project very complete.
 
-## Tópicos
+## Topics
 * Github templates
 * Github actions/workflows
 * Github docs
 * Sonar
 * OpenAPI/Swagger
-* RESTful e HATEOS
+* RESTful and HATEOS
 * Healthcheck
-* Docker 
-* Editorconfig 
+* Docker
+* config editor
 * Serverless
-* Logs e monitoramento
-* Scripts de automação
-* Scripts de configuração de ambiente
+* Logs and monitoring
+* Automation scripts
+* Environment configuration scripts
 * Terraform
-* Testes
-* Arquivos de CI/CD para AWS
-* Meta-arquivos
+* Tests
+* CI/CD files for AWS
+* Metafiles
 
 
 
 
 ## Github templates
-Incluir templates padronizados para:
+Include standardized templates for:
 * Pull Request
 * Issues
   * Bug Report
@@ -33,15 +33,15 @@ Incluir templates padronizados para:
   * Feature Request
 
 ## Github actions/workflows
-Incluir scripts para as seguintes ações:
-* Lint
+Include scripts for the following actions:
+* lint
 * Unit Test
 * Component Test
 * Sonar
 * Versioning
 
-## Github docs 
-Incluir arquivos focados ao uso da comunidade:
+## Github docs
+Include files focused on community use:
 * README.md
 * CHANGELOG.md
 * CODE_OF_CONDUCT.md
@@ -49,59 +49,59 @@ Incluir arquivos focados ao uso da comunidade:
 * LICENSE.md
 
 ### README.md
-É importante que este arquivo contenha os seguintes passos no mesmo:
-* Descrição breve
-* Requesitos
-* Funcionalidades
-* Instalação
-* Execução
-* Execução de testes
-* Execução ferramentas para desenvolvimento (opcional)
+It is important that this file contains the following steps in it:
+* Brief description
+* requirements
+* Functionalities
+* Installation
+* Execution
+* Test execution
+* Execution tools for development (optional)
 
-### Outros arquivos
-Seguir o padrão das arquiteturas de referência, você pode copiar os mesmos.
+### Other files
+Follow the pattern of the reference architectures, you can copy them.
 
 ## Sonar
-O projeto deve possuir o arquivo de configuração do sonar e action para análise.
+The project must have the sonar and action configuration file for analysis.
 * sonar.properties
 * .github/workflows/sonar.yml
 
 ## OpenAPI/Swagger
-Quando o projeto for uma API, é necessario que o mesmo tenho a documentação no padrão OpenAPI.
+When the project is an API, it is necessary that it have documentation in the OpenAPI standard.
 
-Considerar o uso de:
+Consider using:
 * UI
 * Schemas
-* Rotas
+* routes
 
-## RESTful e HATEOS
-Quando o projeto for uma API, é desejável que o mesmo implemente as definições do padrão RESTful.
-Melhor ainda se puder aplicar conceitos de HATEOS.
+## RESTful and HATEOS
+When the project is an API, it is desirable that it implements the definitions of the RESTful standard.
+Even better if you can apply HATEOS concepts.
 
-Para mais detalhes ver:
+For more details see:
 * [Designing-a-Beautiful-REST%2BJSON-API.pdf](https://docs.huihoo.com/apache/apachecon/us2014/Designing-a-Beautiful-REST%2BJSON-API.pdf)
-* [HTTP Methods for RESTful Services](https://www.restapitutorial.com/lessons/httpmethods.html#:~:text=The%20primary%20or%20most%2Dcommonly,but%20are%20utilized%20less%20frequently.)
+* [HTTP Methods for RESTful Services](https://www.restapitutorial.com/lessons/httpmethods.html#:~:text=The%20primary%20or%20most%2Dcommonly,but%20are%20utilized%20less%20frequently. )
 * [RESTful Web Services Resources](https://www.restapitutorial.com/resources.html)
 * [REST-API-Design-Filtering-Sorting-and-Pagination](https://www.moesif.com/blog/technical/api-design/REST-API-Design-Filtering-Sorting-and-Pagination/)
 * [HTTP Status Dogs](https://httpstatusdogs.com/)
 
 ## Healthcheck
-Quando o projeto for uma API, é requerido que o mesmo implemente um endpoint de `healthcheck`, é recomendado que
-o projeto aplique o padrão definido da documentação da guideline, para que o mesmo seja um endpoint inteligente.
+When the project is an API, it is required to implement a `healthcheck` endpoint, it is recommended that
+the project applies the defined standard of the guideline documentation, so that it is an intelligent endpoint.
 
-Para mais detalhes ver:
-* [Microsoft - Monitoramento de integridade](https://docs.microsoft.com/pt-br/dotnet/architecture/microservices/implement-resilient-applications/monitor-app-health)
-* [Microsoft - Exemplo com ASP.NET Core](https://docs.microsoft.com/pt-br/aspnet/core/host-and-deploy/health-checks?view=aspnetcore-6.0)
-* [Testfully - Artigo Health Check](https://testfully.io/blog/api-health-check-monitoring/)
+For more details see:
+* [Microsoft - Health Monitoring](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/implement-resilient-applications/monitor-app-health)
+* [Microsoft - Example with ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/health-checks?view=aspnetcore-6.0)
+* [Testfully - Article Health Check](https://testfully.io/blog/api-health-check-monitoring/)
 
 ## Docker
-Arquivos de docker devem estar na pasta docker, sendo organizados por contexto, exemplos:
+Docker files must be in the docker folder, being organized by context, examples:
 * docker/
   * php/
     * Dockerfile
     * entrypoint.sh
   * nginx/
-    * logs/*
+    *logs/*
     * Dockerfile
     * app.conf
     * nginx.conf
@@ -110,64 +110,64 @@ Arquivos de docker devem estar na pasta docker, sendo organizados por contexto, 
     * entrypoint.sh
 
 ## Editorconfig
-É de suma importância que o projeto possua um arquivo de configuração universal para que independente da ferramenta que 
-venha a utilizar, o projeto não sofra alterações não desejadas em formatação de arquivos, tipo de quebra de linha etc. 
+It is extremely important that the project has a universal configuration file so that regardless of the tool that
+use, the project does not undergo unwanted changes in file formatting, line break type, etc.
 
 ## Serverless
-Quando aplicável ao projeto deixar configurado na raiz do projeto seus respectivos arquivos.
+When applicable to the project, leave their respective files configured in the root of the project.
 
-## Logs e monitoramento
-É recomendável que o projeto faça de uma interface de log para prover informações de execução do projeto.
-Também é recomendável que o mesmo envie logs para a NewRelic e que o projeto esteja instrumentado na mesma.
+## Logs and monitoring
+It is recommended that the project make a log interface to provide project execution information.
+It is also recommended that it sends logs to NewRelic and that the project is instrumented there.
 
-## Scripts de automação
-Os scripts de automação de execução de tarefas de desenvolvimento do projeto devem estar na pasta `scripts`;
+## Automation scripts
+The project's development task execution automation scripts must be in the `scripts` folder;
 
-## Scripts de configuração de ambiente
-É recomendável que os arquivos de configuração de ambiente estejam salvos na pasta `env/`. 
-Apenas o arquivo de desenvolvimento (com apontamentos para recursos locais via Docker) e exemplo de arquivo de integração, 
-demais arquivos de configuração não devem ser versionados.
+## Environment configuration scripts
+It is recommended that environment configuration files are saved in the `env/` folder.
+Just the development file (with notes to local resources via Docker) and example integration file,
+other configuration files must not be versioned.
 
-Exemplo:
+Example:
 ```
 ./env/development.env
 ./env/integration.env.example
 ```
-Ou:
+Or:
 ```
 ./env/.env.development
 ./env/.env.integration.example
 ```
 ## Terraform
-Os arquivos de Terraform se presentes no projeto deverão estar na pasta `infrastructure`;
+Terraform files if present in the project must be in the `infrastructure` folder;
 
-## Testes
-É muito recomendado que o projeto possua testes, principalmente que sigam a abordagem de contexto, como testes de
-componente, unidade e integração. Para projetos que sejam voltados para front-end é interessante que tenhamos o contexto
-de usabilidade e teste de componentes da aplicação.
+## Tests
+It is highly recommended that the project has tests, mainly that follow the context approach, such as tests of
+component, unit and integration. For projects that are focused on the front-end, it is interesting that we have the context
+of usability and testing of application components.
 
-Para mais detalhes ver:
-* [Martin Fowler - Testando Microsserviços](https://martinfowler.com/articles/microservice-testing/)
+For more details see:
+* [Martin Fowler - Testing Microservices](https://martinfowler.com/articles/microservice-testing/)
 
-## Arquivos de CI/CD para AWS
-Quando o projeto estiver devidamente configurado, é ideal que o mesmo possua os arquivos de CI/CD para AWS.
-Estes arquivos devem estar focados principalmente nas ações voltadas para o CD.
-Futuramente as tarefas focadas no CI vão ser realizadas via Github.
+## CI/CD files for AWS
+When the project is properly configured, it is ideal that it has the CI/CD files for AWS.
+These files should be mainly focused on actions aimed at the CD.
+In the future, tasks focused on CI will be carried out via Github.
 
-Exemplo:
+Example:
 ```
 buildspec.yaml
 appspec.yaml
 ```
 
-## Meta-arquivos
+## Metafiles
 ### Project resource
-Criar um arquivo de metadados do projeto chamado `.projectrc`.
-Este arquivo irá conter dados do projeto como nome, versão e docker network, 
-este poderá ser utilizado para outras finalidades de execução de `scripts de automação, 
-Além da integração com ferramentas de DX (Developer Experience).
+Create a project metadata file called `.projectrc`.
+This file will contain project data like name, version and docker network,
+this can be used for other purposes of executing `automation scripts,
+In addition to integration with DX tools (Developer Experience).
 
-Exemplo:
+Example:
 
 ```dotenv
 APP_NAME=project-name-here
@@ -176,15 +176,12 @@ NETWORK_NAME=docker-network-name-here
 ```
 
 ### dockerignore
-Arquivo com as referências de pastas e arquivos que devem ser ignorados pelo docker durante a cópia 
-de conteúdo da pasta do projeto.
+File with the references of folders and files that should be ignored by docker during copying
+of the project folder's contents.
 
 ### gitignore
-Arquivo com as referências de pastas e arquivos que devem ser ignorados pelo git durante o desenvolvimento
-do projeto.
+File with the references of folders and files that should be ignored by git during development
+from the project.
 
 ### docker-compose.yml
-Arquivo com configurações para gestão de containers no ambiente de desenvolvimento.
-
-
-
+File with settings for managing containers in the development environment.
