@@ -1,4 +1,4 @@
-# Projects Guidelines
+# Projects Guidelines (Work In Progess...)
 Guidelines for configuring a project with the best standards of the internet.
 
 ## List of guidelines in different languages:
