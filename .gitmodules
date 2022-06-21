@@ -1,0 +1,8 @@
+[submodule "examples/node/serverless-node-template"]
+	path = examples/node/serverless-node-template
+	url = git@github.com:andersoncontreira/serverless-node-template.git
+	branch = main
+[submodule "examples/python/serverless-python-template"]
+	path = examples/python/serverless-python-template
+	url = git@github.com:andersoncontreira/serverless-python-template.git
+	branch = main
