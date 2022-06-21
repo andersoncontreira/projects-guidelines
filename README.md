@@ -35,14 +35,14 @@ Include standardized templates for:
 
 ### Examples
 To view examples of these files click in the links bellow:
-* [pull_request_template.md](./examples/python/serverless-python-template/.github/pull_request_template.md)
-* [bug_report.md](./examples/python/serverless-python-template/.github/ISSUE_TEMPLATE/bug_report.md)
-* [bug_report.yml](./examples/python/serverless-python-template/.github/ISSUE_TEMPLATE/bug_report.yml)
-* [config.yml](./examples/python/serverless-python-template/.github/ISSUE_TEMPLATE/config.yml)
-* [documentation_request.md](./examples/python/serverless-python-template/.github/ISSUE_TEMPLATE/documentation_request.md)
-* [documentation_request.yml](./examples/python/serverless-python-template/.github/ISSUE_TEMPLATE/documentation_request.yml)
-* [feature_request.md](./examples/python/serverless-python-template/.github/ISSUE_TEMPLATE/feature_request.md)
-* [feature_request.yml](./examples/python/serverless-python-template/.github/ISSUE_TEMPLATE/feature_request.yml)
+* [pull_request_template.md](https://github.com/andersoncontreira/serverless-python-template/blob/main/.github/pull_request_template.md)
+* [bug_report.md](https://github.com/andersoncontreira/serverless-python-template/blob/main/.github/ISSUE_TEMPLATE/bug_report.md)
+* [bug_report.yml](https://github.com/andersoncontreira/serverless-python-template/blob/main/.github/ISSUE_TEMPLATE/bug_report.yml)
+* [config.yml](https://github.com/andersoncontreira/serverless-python-template/blob/main/.github/ISSUE_TEMPLATE/config.yml)
+* [documentation_request.md](https://github.com/andersoncontreira/serverless-python-template/blob/main/.github/ISSUE_TEMPLATE/documentation_request.md)
+* [documentation_request.yml](https://github.com/andersoncontreira/serverless-python-template/blob/main/.github/ISSUE_TEMPLATE/documentation_request.yml)
+* [feature_request.md](https://github.com/andersoncontreira/serverless-python-template/blob/main/.github/ISSUE_TEMPLATE/feature_request.md)
+* [feature_request.yml](https://github.com/andersoncontreira/serverless-python-template/blob/main/.github/ISSUE_TEMPLATE/feature_request.yml)
 
 
 ## Github - Workflows
@@ -64,12 +64,12 @@ Workflow suggestions:
 
 ### Examples
 To view examples of these files click in the links bellow:
-* [lint.yml](./examples/python/serverless-python-template/.github/workflows/lint.yml)
-* [unit_tests.yml](./examples/python/serverless-python-template/.github/workflows/unit_tests.yml)
+* [lint.yml](https://github.com/andersoncontreira/serverless-python-template/blob/main/.github/workflows/lint.yml)
+* [unit_tests.yml](https://github.com/andersoncontreira/serverless-python-template/blob/main/.github/workflows/unit_tests.yml)
 * [component_tests.yml](#)
-* [sonar.yml](./examples/python/serverless-python-template/.github/workflows/sonar.yml)
+* [sonar.yml](https://github.com/andersoncontreira/serverless-python-template/blob/main/.github/workflows/sonar.yml)
 * [versioning.yml](#)
-* [guidelines.yml](./examples/python/serverless-python-template/.github/workflows/guidelines.yml)
+* [guidelines.yml](https://github.com/andersoncontreira/serverless-python-template/blob/main/.github/workflows/guidelines.yml)
 
 ### References
 * [Docs Github - Workflows](https://docs.github.com/pt/actions/using-workflows/about-workflows)
@@ -94,11 +94,11 @@ List of the files:
 
 ### Examples
 To view examples of these files click in the links bellow:
-* [README.md](./examples/python/serverless-python-template/README.md)
-* [CHANGELOG.md](./examples/python/serverless-python-template/CHANGELOG.md)
-* [CODE_OF_CONDUCT.md](./examples/python/serverless-python-template/CODE_OF_CONDUCT.md)
-* [CONTRIBUTING.md](./examples/python/serverless-python-template/CONTRIBUTING.md)
-* [LICENSE.md](./examples/python/serverless-python-template/LICENSE.md)
+* [README.md](https://github.com/andersoncontreira/serverless-python-template/blob/main/README.md)
+* [CHANGELOG.md](https://github.com/andersoncontreira/serverless-python-template/blob/main/CHANGELOG.md)
+* [CODE_OF_CONDUCT.md](https://github.com/andersoncontreira/serverless-python-template/blob/main/CODE_OF_CONDUCT.md)
+* [CONTRIBUTING.md](https://github.com/andersoncontreira/serverless-python-template/blob/main/CONTRIBUTING.md)
+* [LICENSE.md](https://github.com/andersoncontreira/serverless-python-template/blob/main/LICENSE.md)
 
 ### More details
 Below we have a link with more detailed information on this approach.
@@ -136,9 +136,9 @@ The `sonar-project.properties` file should contain the following settings:
 To view examples of these files click in the links bellow:
 * [Go](./examples/go/sonar/sonar-project.properties)
 * [Java](./examples/java/sonar/sonar-project.properties)
-* [Node](./examples/node/serverless-node-template/sonar-project.properties)
+* [Node](https://github.com/andersoncontreira/serverless-node-template/blob/main/sonar-project.properties)
 * [PHP](./examples/php/sonar/sonar-project.properties)
-* [Python](./examples/python/serverless-python-template/sonar-project.properties)
+* [Python](https://github.com/andersoncontreira/serverless-python-template/blob/main/sonar-project.properties)
 
 ## OpenApi/Swagger
 Files for dynamic API configuration.
@@ -156,19 +156,19 @@ A documentar
 
 ### Examples
 To view examples of these files click in the links bellow:
-* [openapi.yml](./examples/python/serverless-python-template/public/swagger/openapi.yml)
+* [openapi.yml](https://github.com/andersoncontreira/serverless-python-template/blob/main/public/swagger/openapi.yml)
 * UI
-    * [UI](./examples/python/serverless-python-template/public/swagger/index.html)
+    * [UI](https://github.com/andersoncontreira/serverless-python-template/blob/main/public/swagger/index.html)
 * Routes
     * [PHP - Routes](./examples/php/openapi/routes/routes.php)
-    * [Python - Routes](./examples/python/serverless-python-template/app.py)
+    * [Python - Routes](https://github.com/andersoncontreira/serverless-python-template/blob/main/app.py)
 * Schemas
     * PHP
         * [Schemas - API](./examples/php/openapi/schemas/Api.yaml)
         * [Schemas - Product](./examples/php/openapi/schemas/Entity/Product.yaml)
     * Python
-        * [Schemas - API](./examples/python/serverless-python-template/application/openapi/api_schemas.py)
-        * [Schemas - General](./examples/python/serverless-python-template/application/openapi/schemas.py)
+        * [Schemas - API](https://github.com/andersoncontreira/serverless-python-template/blob/main/application/openapi/api_schemas.py)
+        * [Schemas - General](https://github.com/andersoncontreira/serverless-python-template/blob/main/application/openapi/schemas.py)
 
 
 ### Referência para a documentação de rotas

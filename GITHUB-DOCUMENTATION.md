@@ -45,11 +45,11 @@ As a best practice, we encourage you to include the license file in your project
 
 ## Examples
 To view examples of these files click in the links bellow:
-* [README.md](./examples/python/serverless-python-template/README.md)
-* [CHANGELOG.md](./examples/python/serverless-python-template/CHANGELOG.md)
-* [CODE_OF_CONDUCT.md](./examples/python/serverless-python-template/CODE_OF_CONDUCT.md)
-* [CONTRIBUTING.md](./examples/python/serverless-python-template/CONTRIBUTING.md)
-* [LICENSE.md](./examples/python/serverless-python-template/LICENSE.md)
+* [README.md](https://github.com/andersoncontreira/serverless-python-template/blob/main/README.md)
+* [CHANGELOG.md](https://github.com/andersoncontreira/serverless-python-template/blob/main/CHANGELOG.md)
+* [CODE_OF_CONDUCT.md](https://github.com/andersoncontreira/serverless-python-template/blob/main/CODE_OF_CONDUCT.md)
+* [CONTRIBUTING.md](https://github.com/andersoncontreira/serverless-python-template/blob/main/CONTRIBUTING.md)
+* [LICENSE.md](https://github.com/andersoncontreira/serverless-python-template/blob/main/LICENSE.md)
 
 ## References
 * [Docs Github - README](https://docs.github.com/pt/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)

@@ -17,19 +17,19 @@ A documentar
 
 ### Exemplos
 Para visualizar exemplos destes arquivos acesse:
-* [openapi.yml](../../examples/python/serverless-python-template/public/swagger/openapi.yml)
+* [openapi.yml](https://github.com/andersoncontreira/serverless-python-template/blob/main/public/swagger/openapi.yml)
 * UI
-    * [UI](../../examples/python/serverless-python-template/public/swagger/index.html)
+    * [UI](https://github.com/andersoncontreira/serverless-python-template/blob/main/public/swagger/index.html)
 * Routes
     * [PHP - Routes](../../examples/php/openapi/routes/routes.php)
-    * [Python - Routes](../../examples/python/serverless-python-template/app.py)
+    * [Python - Routes](https://github.com/andersoncontreira/serverless-python-template/blob/main/app.py)
 * Schemas
     * PHP
         * [Schemas - API](../../examples/php/openapi/schemas/Api.yaml)
         * [Schemas - Product](../../examples/php/openapi/schemas/Entity/Product.yaml)
     * Python
-        * [Schemas - API](../../examples/python/serverless-python-template/application/openapi/api_schemas.py)
-        * [Schemas - General](../../examples/python/serverless-python-template/application/openapi/schemas.py)
+        * [Schemas - API](https://github.com/andersoncontreira/serverless-python-template/blob/main/application/openapi/api_schemas.py)
+        * [Schemas - General](https://github.com/andersoncontreira/serverless-python-template/blob/main/application/openapi/schemas.py)
 
 
 ### Referência para a documentação de rotas
