@@ -2,7 +2,15 @@
 	path = examples/node/serverless-node-template
 	url = git@github.com:andersoncontreira/serverless-node-template.git
 	branch = main
+	shallow = false
+	remote = git@github.com:andersoncontreira/serverless-node-template.git
 [submodule "examples/python/serverless-python-template"]
 	path = examples/python/serverless-python-template
 	url = git@github.com:andersoncontreira/serverless-python-template.git
 	branch = main
+	shallow = false
+[submodule "examples/node/serverless-lambda-api-node-template"]
+	path = examples/node/serverless-lambda-api-node-template
+	url = git@github.com:andersoncontreira/serverless-lambda-api-node-template.git
+	branch = main
+	shallow = false
